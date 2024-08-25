@@ -37,6 +37,7 @@ export const experiencesData = [
   {
     title: "Undergraduate Agricultural Engineering",
     location: "Abia State, AB",
+    institution: "Micheal Okapara University of Agriculture Umudike",
     description:
       "Am an undergraduate at Micheal Okpara University of agriculture.",
     icon: React.createElement(LuGraduationCap),
@@ -45,6 +46,7 @@ export const experiencesData = [
   {
     title: "Intern at Ice Network",
     location: "Anambra, AN",
+    institution: "ICEHUB",
     description:
       "I interned  as a fullstack developer for 6 month we where thought introduction to web development.",
     icon: React.createElement(CgWorkAlt),
@@ -53,6 +55,16 @@ export const experiencesData = [
   {
     title: "Introduction to computer science by harvard university CS50 ",
     location: "",
+    institution: "CS50",
+    description:
+      "We where thought introduction to computer science from scratch to python  it was done online ",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
+  },
+  {
+    title: "Industrial Training",
+    location: "Rivers State",
+    institution: "SIAT NG",
     description:
       "We where thought introduction to computer science from scratch to python  it was done online ",
     icon: React.createElement(FaReact),
@@ -71,8 +83,8 @@ export const projectsData = [
   {
     title: "Supercrib",
     description:
-      "This is an eccormerce website ",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This is an eccormerce website built with Nextjs and Golang ",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux","Golang"],
     imageUrl: rmtdevImg,
   },
   {
@@ -108,4 +120,5 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "Golang"
 ] as const;
