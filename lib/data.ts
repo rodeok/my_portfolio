@@ -68,7 +68,7 @@ export const experiencesData = [
     description:
       "We where thought introduction to computer science from scratch to python  it was done online ",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "May 2024 - October 2024",
   },
 ] as const;
 
