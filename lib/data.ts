@@ -66,7 +66,7 @@ export const experiencesData = [
     location: "Rivers State",
     institution: "SIAT NG",
     description:
-      "We where thought introduction to computer science from scratch to python  it was done online ",
+      "Introduction into Palm Oil Production, From the Nusery to Harvesting and to the mill for processing",
     icon: React.createElement(FaReact),
     date: "May 2024 - October 2024",
   },
