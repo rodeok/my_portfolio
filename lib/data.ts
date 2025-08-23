@@ -5,7 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/nft.jpg";
 import rmtdevImg from "@/public/ecc.jpg";
 import wordanalyticsImg from "@/public/food.png";
-
+import chatbot from "@/public/chatbot.png";
+import sebi from "@/public/sebi.png";
+import work from "@/public/workkk.png";
 export const links = [
   {
     name: "Home",
@@ -92,6 +94,27 @@ export const projectsData = [
     description:
       "A public web app for quick food receipy",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Sanity.io"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "AI CHATBOT",
+    description:
+      "AI CHATBOT built with python,pytorch,flask",
+    tags: ["Python", "flask", "pytorch", "", ""],
+    imageUrl: chatbot,
+  },
+  {
+    title: "Online pharmacy",
+    description:
+      "online pharmacy web app for quick local remedies",
+    tags: ["React", "Next.js", "gemini", "Tailwind", ""],
+    imageUrl: sebi,
+  },
+    {
+    title: "Ai powerpoint generator",
+    description:
+      "AI powered powerpoint generator",
+    tags: ["React", "Next.js", "gemini", "Tailwind", ""],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
