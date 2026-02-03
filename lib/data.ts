@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "../public/nft.jpg";
 import rmtdevImg from "../public/ecc.jpg";
 import wordanalyticsImg from "../public/food.png";
-import chatbot from "../public/chatbot.png";
+import chatbot from "../public/chatbot222.png";
 import sebi from "../public/sebi222.png";
 import raggedai from "../public/ragged.png";
 import tobfolio from "../public/tobfolio.png";
