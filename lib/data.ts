@@ -41,7 +41,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Undergraduate Agricultural Engineering",
+    title: "B.ENG Agricultural and Bioresources Engineering",
     location: "Abia State, AB",
     institution: "Micheal Okapara University of Agriculture Umudike",
     description:
