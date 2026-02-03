@@ -2,16 +2,16 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/nft.jpg";
-import rmtdevImg from "@/public/ecc.jpg";
-import wordanalyticsImg from "@/public/food.png";
-import chatbot from "@/public/chatbot.png";
-import sebi from "@/public/sebi.png";
-import raggedai from "@/public/ragged.png";
-import tobfolio from "@/public/tobfolio.png";
-import aitrading from "@/public/aitrading.png";
-import icehub from "@/public/icehubb.png";
-import urlshort from "@/public/URLSHORT.png";
+import corpcommentImg from "../public/nft.jpg";
+import rmtdevImg from "../public/ecc.jpg";
+import wordanalyticsImg from "../public/food.png";
+import chatbot from "../public/chatbot.png";
+import sebi from "../public/sebi.png";
+import raggedai from "../public/ragged.png";
+import tobfolio from "../public/tobfolio.png";
+import aitrading from "../public/aitrading.png";
+import icehub from "../public/icehubb.png";
+import urlshort from "../public/URLSHORT.png";
 export const links = [
   {
     name: "Home",
