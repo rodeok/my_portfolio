@@ -7,7 +7,11 @@ import rmtdevImg from "@/public/ecc.jpg";
 import wordanalyticsImg from "@/public/food.png";
 import chatbot from "@/public/chatbot.png";
 import sebi from "@/public/sebi.png";
-import work from "@/public/workkk.png";
+import raggedai from "@/public/ragged.png";
+import tobfolio from "@/public/tobfolio.png";
+import aitrading from "@/public/aitrading.png";
+import icehub from "@/public/icehubb.png";
+import urlshort from "@/public/URLSHORT.png";
 export const links = [
   {
     name: "Home",
@@ -81,13 +85,17 @@ export const projectsData = [
       "This is my first blockchain project ",
     tags: ["React", "Next.js", "Thirdweb", "Tailwind", ""],
     imageUrl: corpcommentImg,
+    githubLink: "https://github.com/rodeok/nft-drop-site",
+    liveLink: "https://nft-drop21.vercel.app",
   },
   {
     title: "Supercrib",
     description:
       "This is an eccormerce website built with Nextjs and Golang ",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux","Golang"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Golang"],
     imageUrl: rmtdevImg,
+    githubLink: "https://github.com/rodeok/supercrib-eccormerce-sanity",
+    liveLink: "https://supercrib.vercel.app",
   },
   {
     title: "Online Food Recipy",
@@ -95,6 +103,8 @@ export const projectsData = [
       "A public web app for quick food receipy",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Sanity.io"],
     imageUrl: wordanalyticsImg,
+    githubLink: "https://github.com/rodeok/recipy-app-react",
+    liveLink: "https://next-recipe-app-main.vercel.app/",
   },
   {
     title: "AI CHATBOT",
@@ -102,6 +112,8 @@ export const projectsData = [
       "AI CHATBOT built with python,pytorch,flask",
     tags: ["Python", "flask", "pytorch", "", ""],
     imageUrl: chatbot,
+    githubLink: "",
+    liveLink: "",
   },
   {
     title: "Online pharmacy",
@@ -109,14 +121,64 @@ export const projectsData = [
       "online pharmacy web app for quick local remedies",
     tags: ["React", "Next.js", "gemini", "Tailwind", ""],
     imageUrl: sebi,
+    githubLink: "https://github.com",
+    liveLink: "https://google.com",
   },
-    {
+  {
     title: "Ai powerpoint generator",
     description:
       "AI powered powerpoint generator",
     tags: ["React", "Next.js", "gemini", "Tailwind", ""],
     imageUrl: wordanalyticsImg,
+    githubLink: "https://github.com",
+    liveLink: "https://google.com",
   },
+  {
+    title: "Raggedai",
+    description:
+      "RAG platform built with Nextjs and xenova/transformers,Mongodb",
+    tags: ["React", "Next.js", "groq", "Tailwind", "MongoDB", "Node.js", "Express"],
+    imageUrl: raggedai,
+    githubLink: "",
+    liveLink: "https://raggedai.vercel.app",
+  },
+  {
+    title: "Tobfolio",
+    description:
+      "Property Management System built with Nextjs,nodejs",
+    tags: ["React", "Next.js", "Tailwind", "MongoDB", "Node.js", "Express"],
+    imageUrl: tobfolio,
+    githubLink: "",
+    liveLink: "tobfolio.com",
+  },
+  {
+    title: "Traders Companion",
+    description:
+      "Forex trading analysis tool built with Nextjs,nodejs",
+    tags: ["React", "Next.js", "Tailwind", "MongoDB", "Node.js", "Express"],
+    imageUrl: aitrading,
+    githubLink: "",
+    liveLink: "https://aitrader6.vercel.app",
+  },
+  {
+    title: "Icehub",
+    description:
+      "Portfolio/Management system built for ICEHUB",
+    tags: ["React", "Next.js", "Tailwind", "MongoDB", "Node.js", "Express"],
+    imageUrl: icehub,
+    githubLink: "",
+    liveLink: "https://icehub-ng.com",
+  },
+  {
+    title: "Urlshortener",
+    description:
+      "Urlshortener built with Nextjs,nodejs",
+    tags: ["React", "Next.js", "Tailwind", "MongoDB", "Node.js", "Express"],
+    imageUrl: urlshort,
+    githubLink: "",
+    liveLink: "https://urlshortner-omega-pink.vercel.app/",
+  },
+
 ] as const;
 
 export const skillsData = [

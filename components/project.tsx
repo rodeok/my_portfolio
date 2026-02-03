@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { BsGithub } from "react-icons/bs";
+import { FiExternalLink } from "react-icons/fi";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,7 +14,9 @@ export default function Project({
   description,
   tags,
   imageUrl,
-}: ProjectProps) {
+  githubLink,
+  liveLink,
+}: ProjectProps & { githubLink: string; liveLink: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -46,6 +50,23 @@ export default function Project({
               </li>
             ))}
           </ul>
+
+          <div className="flex gap-3 mt-4 sm:mt-auto">
+            <a
+              href={githubLink}
+              target="_blank"
+              className="bg-white p-2 text-gray-700 hover:text-gray-950 flex items-center gap-1 text-[1.1rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            >
+              <BsGithub />
+            </a>
+            <a
+              href={liveLink}
+              target="_blank"
+              className="bg-white p-2 text-gray-700 flex items-center gap-1 text-[1.1rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            >
+              <FiExternalLink />
+            </a>
+          </div>
         </div>
 
         <Image
